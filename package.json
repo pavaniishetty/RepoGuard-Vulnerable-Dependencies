@@ -1,0 +1,11 @@
+{
+  "name": "repoguard-vulnerable-dependencies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Training fixture with intentionally old dependencies",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "express": "4.17.1",
+    "minimist": "1.2.0"
+  }
+}
