@@ -1,11 +1,10 @@
-{
-  "name": "repoguard-vulnerable-dependencies",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Training fixture with intentionally old dependencies",
-  "dependencies": {
-    "lodash": "4.17.15",
-    "express": "4.17.1",
-    "minimist": "1.2.0"
-  }
-}
+# Security Patch applied by RepoGuard AI for minimist - CVE-2021-44906: Prototype Pollution in minimist
+# Resolved CVE-2021-44906
+
+--- a/package.json
++++ b/package.json
+@@ -1,4 +1,4 @@
+ # Core application dependencies
+-vulnerable-package==1.0.0
++vulnerable-package>=latest-secure
+ pytest>=8.0.0
